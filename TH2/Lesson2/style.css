@@ -1,0 +1,148 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  background-color: rgba(0, 0, 0, 0.2); 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+#page-logo a {
+  font-family: 'Oleo Script', cursive;
+  font-size: 2rem;
+  color: #eff37b; 
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 1.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+footer {
+  background-color: #1a1a1a;
+  padding: 2rem 0;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+footer img {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  filter: invert(1); 
+}
+
+#hero {
+  height: 80vh;
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), 
+                    url(c:/Users/Laptop/AppData/Local/Temp/Rar\$DIa2472.31179.rartemp/ocean.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3rem;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  max-width: 600px;
+}
+
+#hero-content h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+#hero-content p {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+#hero-content a {
+  display: inline-block;
+  background-color: #ffeb3b;
+  color: #333;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+#highlights {
+  background-color: #e0f7fa;
+  padding: 4rem 5%;
+  text-align: center;
+}
+
+#highlights h2 {
+  font-family: 'Oleo Script', cursive;
+  text-transform: uppercase;
+  color: #455a64;
+  margin-bottom: 3rem;
+}
+
+#destinations {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+.destination img {
+  width: 100%;
+  max-width: 350px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px; 
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.destination p {
+  margin-top: 1rem;
+  color: #00796b;
+  font-weight: 500;
+}
+
+.destination strong {
+  display: block;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
